@@ -34,7 +34,7 @@ public class PersonServiceTest {
 		Person person = new Person();
 		person.setName("Name");
 		person.setAge(21);
-		person.setGender(Gender.M);
+		person.setGender(Gender.F);
 		
 		when(repository.insert(any(Person.class))).thenReturn(person);
 		

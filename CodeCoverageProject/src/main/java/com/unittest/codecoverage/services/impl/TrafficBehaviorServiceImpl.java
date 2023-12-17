@@ -23,7 +23,6 @@ public class TrafficBehaviorServiceImpl implements TrafficBehaviorService {
 				!currentFootpassengerBehavior.lookedToTheRight()) {
 			throw new BehaviorException("You should be more careful");
 		}
-		
 	}
 
 }
